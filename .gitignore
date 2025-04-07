@@ -1,0 +1,61 @@
+# Сборочные каталоги
+build*/
+*.pro.user*
+*.qbs.user*
+*.pro.user
+*.autosave
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# Qt Creator
+*.creator.*
+*.user
+*.user.*
+*.qmlproject.user.*
+*.qmake.stash
+
+# Временные файлы
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Временные и кэш-файлы
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы от Qt Linguist
+*.qm
+
+# Мусор от GDB
+.gdb_history
+
+# Visual Studio Code
+.vscode/
+
+# Qt Design Studio
+*.uip
+*.metadata
+
+# Qt Creator CMake кэш
+.cache/
